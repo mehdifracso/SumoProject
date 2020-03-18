@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 03/02/20 16:59:47 by Eclipse SUMO GUI Version 1.4.0
+<!-- generated on 03/18/20 13:39:59 by Eclipse SUMO GUI Version 1.5.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\network.net.xml"/>
-        <route-files value="C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\routes.xml"/>
-        <additional-files value="C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\vehicles.xml,C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\poi.xml,C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\loops.xml"/>
+        <net-file value="D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\network.net.xml"/>
+        <route-files value="D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\routes.xml"/>
+        <additional-files value="D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\vehicles.xml,D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\poi.xml,D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\loops.xml"/>
     </input>
 
     <time>
@@ -14,11 +14,11 @@
     </time>
 
     <traci_server>
-        <remote-port value="52415"/>
+        <remote-port value="58716"/>
     </traci_server>
 
     <gui_only>
-        <gui-settings-file value="C:\Users\Ayoub\Documents\ILISI2\ProjetIntegration\traffic\traasTest2\src\traasTest\data\settings.xml"/>
+        <gui-settings-file value="D:\desktop\ILISI2\Projet%20Integration%20POO\SumoProject\src\traasTest\data\settings.xml"/>
         <start value="true"/>
         <tracker-interval value="0.1"/>
     </gui_only>
@@ -27,6 +27,6 @@
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="168.60" id="loop0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
-    <interval begin="0.00" end="168.60" id="loop1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="160.00" id="loop0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="160.00" id="loop1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
 </detector>
